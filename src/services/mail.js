@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL ?? "https://saas.svdnafenatran.com.br/";
+const API_URL = import.meta.env.VITE_API_URL ?? "https://svdprincipal.svdnafenatran.com.br";
 
 async function parseResponse(response) {
   if (response.ok) {
