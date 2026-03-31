@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Navigate, Route, Routes, useLocation } from "react-router-dom";
 
 import Home from "./pages/Home";
 import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
-import PoliticaCookies from "./pages/PoliticaCookies";
+import PrivacidadeCookies from "./pages/PrivacidadeCookies";
 import Servicos from "./pages/Servicos";
 import Contato from "./pages/Contato";
 import TrabalheConosco from "./pages/TrabalhoConosco";
@@ -41,7 +41,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/politica-privacidade" element={<PoliticaPrivacidade />} />
-        <Route path="/politica-cookies" element={<PoliticaCookies />} />
+        <Route path="/privacidade-cookies" element={<PrivacidadeCookies />} />
+        <Route path="/politica-cookies" element={<Navigate to="/privacidade-cookies" replace />} />
         <Route path="/servicos" element={<Servicos />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/trabalhe-conosco" element={<TrabalheConosco />} />
