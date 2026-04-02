@@ -8,39 +8,54 @@ export default function TimelineCarousel() {
   const timelineData = [
     {
       year: "2001",
-      title: "Fundação da SVD",
-      description: "Início das atividades com um único caminhão e o sonho de revolucionar o transporte no Brasil.",
+      title: "Fundação",
+      description: "Fundação da SVD em Curitiba, iniciando uma trajetória de excelência no transporte.",
       highlight: true
     },
     {
-      year: "2005", 
-      title: "Expansão Regional",
-      description: "Ampliação da frota e início das operações interestaduais, conectando São Paulo ao interior."
-    },
-    {
-      year: "2010",
-      title: "Tecnologia GPS",
-      description: "Implementação do primeiro sistema de rastreamento GPS, revolucionando o controle da frota."
-    },
-    {
-      year: "2015",
-      title: "Certificação ISO",
-      description: "Conquista da certificação ISO 9001, consolidando nosso compromisso com a qualidade."
+      year: "2017",
+      title: "Expansão",
+      description: "Abertura da filial em Sorocaba, ampliando nossa presença estratégica."
     },
     {
       year: "2018",
-      title: "Sustentabilidade",
-      description: "Lançamento do programa de sustentabilidade com investimento em veículos eco-eficientes."
+      title: "São Bernardo do Campo",
+      description: "Abertura da filial em São Bernardo do Campo, importante polo automotivo."
+    },
+    {
+      year: "2019",
+      title: "Consolidação e Qualidade",
+      description: "Certificações ISO (9001, 14001, 39001). Abertura do Espaço do Cliente, criação da divisão Acessórios e 1ª participação na Fenatran."
     },
     {
       year: "2020",
-      title: "Transformação Digital",
-      description: "Digitalização completa dos processos e lançamento da plataforma online para clientes."
+      title: "Inovação e Mercado",
+      description: "Criação da divisão Seminovos, transformação em SVD S.A., operação na Argentina e abertura da filial São Borja (RS)."
+    },
+    {
+      year: "2021",
+      title: "Ponta Grossa",
+      description: "Expansão no Paraná com a abertura da filial em Ponta Grossa."
+    },
+    {
+      year: "2022",
+      title: "Evento Fenatran",
+      description: "Consolidação da marca com a 2ª participação na maior feira de transportes da América Latina."
+    },
+    {
+      year: "2023",
+      title: "Infraestrutura",
+      description: "Posto de Abastecimento Curitiba, nova Loja de Acessórios e início das atividades no novo pátio de São Bernardo."
     },
     {
       year: "2024",
-      title: "Liderança Nacional",
-      description: "Consolidação como referência nacional em transporte sustentável e inovação logística."
+      title: "Tecnologia e Novos Negócios",
+      description: "Sistema Otiflow, Posto SBC, divisão Implementos, nova sede Seminovos Curitiba e 3ª participação na Fenatran."
+    },
+    {
+      year: "2025",
+      title: "Novos Horizontes",
+      description: "Inauguração da nova sede da Funilaria e conquista da prestigiada Certificação OEA."
     }
   ];
 

@@ -229,7 +229,7 @@ export default function TrabalhoConosco() {
                               <SelectItem key={area} value={area}>{area}</SelectItem>
                             ))}
                           </SelectContent>
-                        </Select>
+                        </Select> 
                       </div>
                     </div>
 

@@ -8,7 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import Topbar from "../components/home/TopBar";
 import HomeHeader from "../components/home/HomeHeader";
 import HomeFooter from "../components/home/HomeFooter";
-import manualFornecedorPDF from "../assets/documentos/manual-fornecedor.pdf";
+import manualFornecedorPDF from "../assets/documentos/Manual-fornecedores2.pdf";
 import "../styles/CadastroFornecedores.css";
 
 export default function CadastroFornecedores() {

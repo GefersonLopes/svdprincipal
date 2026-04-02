@@ -1,5 +1,5 @@
 import React from "react";
-import { Users, Award, Target, History, TrendingUp, Shield, Heart } from "lucide-react";
+import { Users, Award, Target, History, TrendingUp, Shield, Heart, MapPin } from "lucide-react";
 import Topbar from "../components/home/TopBar";
 import HomeHeader from "../components/home/HomeHeader";
 import HomeFooter from "../components/home/HomeFooter";
@@ -168,7 +168,7 @@ export default function QuemSomos() {
             <div className="sobre-cert-bloco">
               <h2 className="sobre-lideranca-title">Política Integrada (SGI)</h2>
               <p className="sobre-cert-texto">
-                A SVD presta Serviço Logístico de Transporte e Armazenagem para a indústria automotiva, visando atender as necessidades dos clientes através da melhoria contínua do SGI (Sistema de Gestão Integrada), atendendo os requisitos legais e outros requisitos, comprometendo-se com a segurança viária e a redução da poluição.
+                A SVD presta Serviço Logístico de Transporte e Armazenagem para a indústria automotiva e agrícola, visando atender as necessidades dos clientes através da melhoria contínua do SGI (Sistema de Gestão Integrada), atendendo os requisitos legais e outros requisitos, comprometendo-se com a segurança viária e a redução da poluição.
               </p>
             </div>
 
@@ -206,6 +206,46 @@ export default function QuemSomos() {
                   <img src={cert9001} alt="Certificado ISO 9001" className="certificate-image" />
                   <img src={cert14001} alt="Certificado ISO 14001" className="certificate-image" />
                   <img src={cert39001} alt="Certificado ISO 39001" className="certificate-image" />
+                </div>
+              </div>
+            </div>
+
+            {/* Escopo de Certificação */}
+            <div className="sobre-cert-bloco" style={{ marginTop: '4rem' }}>
+              <h2 className="home-certifications__title">Escopo de Certificação</h2>
+              <p className="sobre-cert-texto" style={{ marginBottom: '2.5rem' }}>
+                Prestação de serviços logísticos de transporte e armazenagem para indústria automotiva e agrícola com atuação na América Latina.
+              </p>
+              
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
+                <div style={{ display: 'flex', gap: '1rem', padding: '1.5rem', background: '#fff', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', border: '1px solid #edf2f7' }}>
+                  <div style={{ backgroundColor: '#e0e7ff', padding: '0.75rem', borderRadius: '10px', height: 'fit-content' }}>
+                    <MapPin size={24} style={{ color: '#002d72' }} />
+                  </div>
+                  <div>
+                    <h4 style={{ fontWeight: 'bold', color: '#1e293b', marginBottom: '0.25rem', fontSize: '1.1rem' }}>Matriz</h4>
+                    <p style={{ color: '#64748b', margin: 0, fontSize: '0.95rem', lineHeight: '1.5' }}>Rua Lodovico Kaminski, 880 - Curitiba/PR</p>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', gap: '1rem', padding: '1.5rem', background: '#fff', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', border: '1px solid #edf2f7' }}>
+                  <div style={{ backgroundColor: '#e0e7ff', padding: '0.75rem', borderRadius: '10px', height: 'fit-content' }}>
+                    <MapPin size={24} style={{ color: '#002d72' }} />
+                  </div>
+                  <div>
+                    <h4 style={{ fontWeight: 'bold', color: '#1e293b', marginBottom: '0.25rem', fontSize: '1.1rem' }}>Filial</h4>
+                    <p style={{ color: '#64748b', margin: 0, fontSize: '0.95rem', lineHeight: '1.5' }}>Rua Edmundo Eckstein, 888 - Curitiba/PR</p>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', gap: '1rem', padding: '1.5rem', background: '#fff', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', border: '1px solid #edf2f7' }}>
+                  <div style={{ backgroundColor: '#e0e7ff', padding: '0.75rem', borderRadius: '10px', height: 'fit-content' }}>
+                    <MapPin size={24} style={{ color: '#002d72' }} />
+                  </div>
+                  <div>
+                    <h4 style={{ fontWeight: 'bold', color: '#1e293b', marginBottom: '0.25rem', fontSize: '1.1rem' }}>Filial</h4>
+                    <p style={{ color: '#64748b', margin: 0, fontSize: '0.95rem', lineHeight: '1.5' }}>Rua Engenheiro Júlio Cesar de Souza Araújo, 181 – Curitiba/PR</p>
+                  </div>
                 </div>
               </div>
             </div>
