@@ -27,7 +27,7 @@ export default function TopBar() {
         </div>
         <div className="topbar__socials">
           <a
-            href="https://www.linkedin.com/company/suaempresa" 
+            href="https://www.linkedin.com/company/svd-transportes/posts/?feedView=all" 
             aria-label="LinkedIn"
             className="topbar__social-link"
             target="_blank"
