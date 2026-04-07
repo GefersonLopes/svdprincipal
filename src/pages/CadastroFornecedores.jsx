@@ -9,6 +9,7 @@ import Topbar from "../components/home/TopBar";
 import HomeHeader from "../components/home/HomeHeader";
 import HomeFooter from "../components/home/HomeFooter";
 import manualFornecedorPDF from "../assets/documentos/Manual-fornecedores2.pdf";
+import { sendSupplierForm } from "../services/mail";
 import "../styles/CadastroFornecedores.css";
 
 const initialFormData = {
