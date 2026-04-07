@@ -34,13 +34,19 @@ export default function HomeFooter() {
             </p>
             <div className="custom-footer-social-links">
               <div className="custom-footer-social-icon custom-footer-facebook">
-                <Facebook className="custom-footer-social-svg" />
+                <a href="https://www.facebook.com/svdtransportes/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                  <Facebook className="custom-footer-social-svg" />
+                </a>
               </div>
               <div className="custom-footer-social-icon custom-footer-instagram">
-                <Instagram className="custom-footer-social-svg" />
+                <a href="https://www.instagram.com/svdtransportes/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <Instagram className="custom-footer-social-svg" />
+                </a>
               </div>
               <div className="custom-footer-social-icon custom-footer-linkedin">
-                <Linkedin className="custom-footer-social-svg" />
+                <a href="https://www.linkedin.com/company/svd-transportes/posts/?feedView=all" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <Linkedin className="custom-footer-social-svg" />
+                </a>
               </div>
             </div>
           </div>
