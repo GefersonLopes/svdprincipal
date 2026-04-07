@@ -168,7 +168,19 @@ export default function QuemSomos() {
             <div className="sobre-cert-bloco">
               <h2 className="sobre-lideranca-title">Política Integrada (SGI)</h2>
               <p className="sobre-cert-texto">
-                A SVD presta Serviço Logístico de Transporte e Armazenagem para a indústria automotiva e agrícola, visando atender as necessidades dos clientes através da melhoria contínua do SGI (Sistema de Gestão Integrada), atendendo os requisitos legais e outros requisitos, comprometendo-se com a segurança viária e a redução da poluição.
+                A SVD é uma empresa especializada em serviços
+logísticos de transporte e armazenagem para os
+setores automotivo e agrícola, com o objetivo de
+atender as necessidades de seus clientes.
+Comprometida com a melhoria contínua de seu
+Sistema de Gestão Integrado (SGI), a empresa
+assegura o cumprimento rigoroso dos requisitos
+legais, regulatórios e outros requisitos aplicáveis.
+A SVD assume também o compromisso com a
+segurança viária, sustentabilidade, proteção da
+saúde e segurança de seus colaboradores, e com a
+redução dos impactos ambientais, incluindo a
+diminuição da poluição gerada em suas operações.
               </p>
             </div>
 
@@ -212,7 +224,7 @@ export default function QuemSomos() {
 
             {/* Escopo de Certificação */}
             <div className="sobre-cert-bloco" style={{ marginTop: '4rem' }}>
-              <h2 className="home-certifications__title">Escopo de Certificação</h2>
+              <h2 className="home-certifications__title">Certificação</h2>
               <p className="sobre-cert-texto" style={{ marginBottom: '2.5rem' }}>
                 Prestação de serviços logísticos de transporte e armazenagem para indústria automotiva e agrícola com atuação na América Latina.
               </p>

@@ -8,6 +8,7 @@ import HomeHeader from "../components/home/HomeHeader";
 import HomeFooter from "../components/home/HomeFooter";
 import sustentabilidadeBg from "../assets/sustentabilidade.jpg";
 import ppImg from "../assets/logos/pp.png";
+import rotaLogo from "../assets/logos/rota.png";
 import despoluirLogo from "../assets/logos/LogoDespoluir.svg";
 import "../styles/Sustentabilidade.css";
 
@@ -309,18 +310,20 @@ export default function Sustentabilidade() {
         <section className="rota-segura-section" style={{ padding: '5rem 0' }}>
           <div className="container">
             <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-              <h2 className="initiatives-title" style={{ marginBottom: '1rem' }}>Rota Segura SVD</h2>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', marginBottom: '1rem' }}>
+                <h2 className="initiatives-title" style={{ margin: 0 }}>Rota Segura SVD</h2>
+              </div>
               <h3 className="rota-segura-title-gradient">
                 Segurança como valor inegociável nas estradas do Brasil e do Mercosul
               </h3>
-              
+
               <div style={{ fontSize: '1.125rem', lineHeight: '1.8', color: '#cbd5e1', textAlign: 'center', marginBottom: '3rem' }}>
                 <p>
                   No Grupo SVD, segurança não é apenas uma norma — é um compromisso diário com a vida. Pensando nisso, criamos o <strong>Rota Segura SVD</strong>, um programa interno de monitoramento, orientação e prevenção, voltado exclusivamente à segurança viária de nossas operações.
                 </p>
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1.5rem', marginBottom: '3rem' }}>
                 {/* Card 1 */}
                 <div className="rota-segura-card-dark">
                   <h4 className="rota-segura-card-title"><Shield className="text-emerald-400" /> O que é?</h4>
@@ -355,6 +358,10 @@ export default function Sustentabilidade() {
                     Redução significativa nos índices de incidentes, aumento do engajamento dos motoristas e ganhos comprovados em eficiência de combustível e performance.
                   </p>
                 </div>
+              </div>
+
+              <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '3rem' }}>
+                <img src={rotaLogo} alt="Logo Rota Segura" style={{ maxWidth: '300px', height: 'auto' }} />
               </div>
 
               <div style={{ textAlign: 'center' }}>

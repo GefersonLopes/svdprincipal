@@ -27,7 +27,7 @@ export default function HomeHero() {
               </div>
               
               <p className="home-hero__content-subtitle">
-                Excelência em Logística, Seminovos e Acessórios
+                Excelência em Transporte, Logística, Acessórios e Seminovos.
               </p>
             </div>
           </div>
