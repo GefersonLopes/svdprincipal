@@ -24,7 +24,7 @@ export default function HomeCertifications() {
             O Grupo SVD é certificado como Operador Econômico Autorizado (OEA), um selo de confiança da Receita Federal que reconhece empresas que cumprem rigorosos critérios de segurança da cadeia logística e conformidade aduaneira.
           </p>
           <p className="home-certifications__description">
-            Essa certificação nos posiciona como um parceiro estratégico no comércio exterior, garantindo processos de importação e exportação mais ágeis, seguros e com menos burocracia para nossos clientes.
+            Essa certificação nos posiciona como um parceiro estratégico no comércio exterior, garantindo processos de exportação mais ágeis, seguros e com menos burocracia para nossos clientes.
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@ export default function HomeCertifications() {
           </p>
           <ul className="home-certifications__list">
             <li>
-              <p><strong>ISO 9001 – Gestão da Qualidade:</strong> Certificação internacional que garante a excelência na gestão da qualidade, assegurando processos padronizados, melhoria contínua e alto nível de eficiência nos serviços prestados.</p>
+              <p><strong>ISO 9001 – Gestão da Qualidade:</strong> Certificação internacional que garante a excelência na gestão da qualidade, assegurando a satisfação dos clientes, além de processos padronizados, melhoria contínua e alto nível de eficiência nos serviços prestados.</p>
             </li>
             <li>
               <p><strong>ISO 14001 – Gestão Ambiental:</strong> Reforça o compromisso do Grupo SVD com a sustentabilidade e a gestão ambiental responsável, promovendo práticas que reduzem impactos ao meio ambiente e incentivam o uso consciente de recursos.</p>

@@ -183,7 +183,7 @@ export default function QuemSomos() {
                   <strong>Segurança e agilidade no comércio internacional</strong>
                 </p>
                 <p className="home-certifications__description">
-                  O Grupo SVD é certificado como Operador Econômico Autorizado (OEA), um selo de confiança da Receita Federal que reconhece empresas que cumprem rigorosos critérios de segurança da cadeia logística e conformidade aduaneira. Essa certificação nos posiciona como um parceiro estratégico no comércio exterior, garantindo processos de importação e exportação mais ágeis, seguros e com menos burocracia para nossos clientes.
+                  O Grupo SVD é certificado como Operador Econômico Autorizado (OEA), um selo de confiança da Receita Federal que reconhece empresas que cumprem rigorosos critérios de segurança da cadeia logística e conformidade aduaneira. Essa certificação nos posiciona como um parceiro estratégico no comércio exterior, garantindo processos de exportação mais ágeis, seguros e com menos burocracia para nossos clientes.
                 </p>
               </div>
             </div>
@@ -196,7 +196,7 @@ export default function QuemSomos() {
                   A SVD Transportes é sinônimo de qualidade, segurança e sustentabilidade, refletidos nas certificações que orgulhosamente ostentamos:
                 </p>
                 <ul className="home-certifications__list">
-                  <li><p><strong>ISO 9001 – Gestão da Qualidade:</strong> Certificação internacional que garante a excelência na gestão da qualidade, assegurando processos padronizados, melhoria contínua e alto nível de eficiência nos serviços prestados.</p></li>
+                  <li><p><strong>ISO 9001 – Gestão da Qualidade:</strong> Certificação internacional que garante a excelência na gestão da qualidade, assegurando a satisfação dos clientes, além de processos padronizados, melhoria contínua e alto nível de eficiência nos serviços prestados.</p></li>
                   <li><p><strong>ISO 14001 – Gestão Ambiental:</strong> Reforça o compromisso do Grupo SVD com a sustentabilidade e a gestão ambiental responsável, promovendo práticas que reduzem impactos ao meio ambiente e incentivam o uso consciente de recursos.</p></li>
                   <li><p><strong>ISO 39001 – Segurança Viária:</strong> Norma internacional voltada à segurança no transporte rodoviário, que estabelece diretrizes para reduzir riscos, prevenir acidentes e garantir operações logísticas mais seguras para colaboradores, clientes e para a sociedade.</p></li>
                 </ul>
