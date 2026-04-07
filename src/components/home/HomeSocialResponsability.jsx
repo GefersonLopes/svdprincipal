@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import ppImg from "../../assets/logos/pp.png";
 
 export default function HomeSocialResponsibility() {
@@ -18,7 +20,7 @@ export default function HomeSocialResponsibility() {
               Conheça mais sobre o trabalho social realizado pelo Grupo SVD e faça parte dessa 
               transformação!
             </p>
-            <a href="/sustentabilidade" className="home-social-responsibility__button">SAIBA MAIS</a>
+            <Link to="/sustentabilidade" className="home-social-responsibility__button">SAIBA MAIS</Link>
           </div>
           <div style={{ flex: '0 1 auto', margin: '0 auto' }}>
             <img 

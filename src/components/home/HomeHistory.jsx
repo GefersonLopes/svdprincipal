@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function HomeHistory() {
   return (
@@ -12,7 +14,7 @@ export default function HomeHistory() {
           posicionadas, o Grupo SVD alia tradição e inovação, garantindo excelência em cada solução oferecida, 
           sempre com o compromisso de "Transportar Sonhos".
         </p>
-        <a href="/sobre" className="home-history__button">LEIA MAIS...</a>
+        <Link to="/sobre" className="home-history__button">LEIA MAIS...</Link>
       </div>
     </section>
   );

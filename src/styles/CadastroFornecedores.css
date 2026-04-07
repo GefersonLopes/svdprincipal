@@ -124,6 +124,24 @@
   justify-content: flex-end;
   margin-top: 1.5rem;
 }
+
+.cadastroforn-feedback {
+  border-radius: 0.75rem;
+  padding: 0.875rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.cadastroforn-feedback-success {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.cadastroforn-feedback-error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
 .cadastroforn-btn {
   background: linear-gradient(90deg, #22d3ee, #2563eb 80%);
   color: #fff;
@@ -139,4 +157,10 @@
   background: linear-gradient(90deg, #2563eb, #22d3ee 80%);
   transform: translateY(-2px) scale(1.04);
   color: #fff;
+}
+
+.cadastroforn-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
 }

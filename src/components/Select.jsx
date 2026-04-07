@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/Select.css";
 
-export function Select({ value, onValueChange, children, className }) {
+export function Select({ value, onValueChange, children, className, ...props }) {
   return (
     <select
       value={value}
       onChange={(e) => onValueChange(e.target.value)}
       className={`custom-select ${className || ""}`}
+      {...props}
     >
       {children}
     </select>

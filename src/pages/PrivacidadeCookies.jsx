@@ -1,8 +1,8 @@
 import React from "react";
 import { Cookie, Settings, CheckCircle, BarChart2 } from "lucide-react";
-import "../styles/PoliticaCookies.css";
+import "../styles/PrivacidadeCookies.css";
 
-export default function PoliticaCookies() {
+export default function PrivacidadeCookies() {
   const cookieTypes = [
     {
       icon: <CheckCircle className="w-6 h-6 text-green-600" />,

@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import logoSVD from "../../assets/logo-azul.png";
 import cert9001 from "../../assets/certificados/conformidade1.png";
 import cert14001 from "../../assets/certificados/conformidade2.png";
@@ -52,7 +54,7 @@ export default function HomeCertifications() {
             Essas certificações são prova do nosso esforço contínuo em oferecer serviços que superam
             expectativas e contribuem para um futuro mais seguro e sustentável.
           </p>
-          <a href="/sobre" className="home-certifications__button">SAIBA MAIS</a>
+          <Link to="/sobre" className="home-certifications__button">SAIBA MAIS</Link>
         </div>
 
         {/* Bloco das imagens e logo */}
