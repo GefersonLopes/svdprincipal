@@ -53,7 +53,7 @@ export default function HomeHero() {
                 <img src={faleconosco} alt="Fale Conosco" className="service-item__icon" />
                 <p className="service-item__text">FALE CONOSCO</p>
               </Link>
-              <a href="https://forms.gle/xUN7wMHo7GL5Nf4G9" target="_blank" rel="noopener noreferrer" className="service-item" style={{ textDecoration: 'none' }}>
+              <a href="https://www.canalintegro.com.br/GRUPOSVD?AspxAutoDetectCookieSupport=1" target="_blank" rel="noopener noreferrer" className="service-item" style={{ textDecoration: 'none' }}>
                 <img src={ouvidoria} alt="Ouvidoria" className="service-item__icon" />
                 <p className="service-item__text">OUVIDORIA</p>
               </a>

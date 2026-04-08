@@ -43,7 +43,7 @@ export default function Denuncias() {
                     O Grupo SVD tem como princípio atuar com integridade, responsabilidade e transparência em todas as suas operações e relacionamentos. Para reforçar esse compromisso, disponibilizamos um Canal de Denúncias confidencial, seguro e imparcial, aberto a todos que queiram relatar condutas que estejam em desacordo com nossos valores ou com a legislação vigente.
                   </p>
                   <Button 
-                    onClick={() => window.open("https://forms.gle/xUN7wMHo7GL5Nf4G9", "_blank")}
+                    onClick={() => window.open("https://www.canalintegro.com.br/GRUPOSVD?AspxAutoDetectCookieSupport=1", "_blank")}
                     className="denuncias-button"
                   >
                     <ShieldAlert className="denuncias-button-icon" />
