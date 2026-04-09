@@ -123,7 +123,7 @@ export default function HomeFooter() {
                 <Link to="/cadastrofornecedores" className="custom-footer-link">Cadastro de Fornecedores</Link>
               </li>
               <li>
-                <Link to="/denuncias" className="custom-footer-link">Canal de Denúncias</Link>
+                <Link to="/denuncias" className="custom-footer-link">Ouvidoria</Link>
               </li>
               <li>
                 <Link to="/politica-privacidade" className="custom-footer-link">Política de Privacidade</Link>
