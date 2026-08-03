@@ -4,8 +4,6 @@ import logoBranca from "../../assets/logo-branca.png";
 import transportesLogo from "../../assets/logos/transportes-logo.png";
 import acessoriosLogo from "../../assets/logos/acessorios-logo.png";
 import seminovosLogo from "../../assets/logos/seminovos-logo.png";
-import implementosLogo from "../../assets/logos/logistica.png";
-import codigoConduta from "../../assets/documentos/etica.pdf";
 import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
 
 export default function HomeFooter() {
@@ -128,12 +126,6 @@ export default function HomeFooter() {
               <li>
                 <Link to="/politica-privacidade" className="custom-footer-link">Política de Privacidade</Link>
               </li>
-              <li>
-                <Link to="/relatorio-transparencia" className="custom-footer-link">Relatório de Transparência</Link>
-              </li>
-              <li>
-                <a href={codigoConduta} download className="custom-footer-link">Código de Conduta</a>
-              </li>
             </ul>
 
             {/* Newsletter */}
@@ -182,7 +174,7 @@ export default function HomeFooter() {
               </a>
               <div className="custom-footer-ball custom-footer-ball-purple" >
                 <div className="custom-footer-ball-inner">
-                  <img src={implementosLogo} alt="Implementos" className="custom-footer-ball-icon" />
+                  <span className="custom-footer-ball-text">ESPAÇO DO CLIENTE</span>
                 </div>
               </div>
             </div>

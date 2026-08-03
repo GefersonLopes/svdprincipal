@@ -523,6 +523,15 @@ img {
   height: 50px;
 }
 
+.services-bar__circle-text {
+  max-width: 80%;
+  color: var(--svd-purple);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}
+
 .services-bar__circle--orange {
   background-color: var(--svd-orange);
 }
@@ -2397,6 +2406,14 @@ img {
 .custom-footer-ball-icon {
   width: 40px;
   height: 22px;
+}
+.custom-footer-ball-text {
+  max-width: 80%;
+  color: var(--svd-purple);
+  font-size: 0.55rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
 }
 .custom-footer-ball-orange {
   background: #f59e42;

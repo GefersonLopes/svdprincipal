@@ -178,7 +178,7 @@ export default function TrabalhoConosco() {
               </p>
               <div style={{ marginTop: "2rem", display: "flex", justifyContent: "center" }}>
                 <Button
-                  onClick={() => window.open("https://ats.abler.com.br/jobs/5375", "_blank")}
+                  onClick={() => window.open("https://gruposvd.rhgestor.com.br/", "_blank")}
                   className="hero-vagas-btn"
                   style={{ backgroundColor: "#fff", color: "#002d72", fontWeight: "bold", padding: "0.75rem 2rem" }}
                 >

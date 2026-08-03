@@ -129,38 +129,6 @@ export default function QuemSomos() {
           </div>
         </section>
 
-        {/* ODS Section */}
-        <section className="sobre-ods" style={{ padding: "5rem 0", backgroundColor: "#f8fafc" }}>
-          <div className="container">
-            <div style={{ maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
-              <h2 className="sobre-historia-title" style={{ marginBottom: "2rem" }}>ODS: Objetivos de Desenvolvimento Sustentável</h2>
-              
-              <p style={{ fontSize: "1.125rem", lineHeight: "1.8", color: "#374151", marginBottom: "1.5rem" }}>
-                Os Objetivos de Desenvolvimento Sustentável são um conjunto de metas globais
-                criadas pela ONU para promover o desenvolvimento econômico, social e ambiental de
-                forma equilibrada, garantindo qualidade de vida para as pessoas hoje sem
-                comprometer as futuras gerações.
-              </p>
-              
-              <p style={{ fontSize: "1.25rem", fontWeight: "bold", color: "#15803d", marginBottom: "3rem" }}>
-                São 17 Objetivos no total e 3 foram escolhidos pela SVD como foco principal.
-              </p>
-
-              <div style={{ 
-                width: "100%", 
-                height: "auto", 
-                minHeight: "300px",
-                borderRadius: "1rem",
-                display: "flex",
-                justifyContent: "center",
-                overflow: "hidden"
-              }}>
-                 <img src={ods} alt="ods" className="ods-image" />
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Política Integrada e Certificações */}
         <section className="sobre-certificacoes">
           <div className="sobre-historia-container">
@@ -228,7 +196,7 @@ diminuição da poluição gerada em suas operações.
               <p className="sobre-cert-texto" style={{ marginBottom: '2.5rem' }}>
                 Prestação de serviços logísticos de transporte e armazenagem para indústria automotiva e agrícola com atuação na América Latina.
               </p>
-              
+
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
                 <div style={{ display: 'flex', gap: '1rem', padding: '1.5rem', background: '#fff', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', border: '1px solid #edf2f7' }}>
                   <div style={{ backgroundColor: '#e0e7ff', padding: '0.75rem', borderRadius: '10px', height: 'fit-content' }}>
@@ -323,6 +291,38 @@ diminuição da poluição gerada em suas operações.
                 alt="Selo Nós Apoiamos - Hospital Pequeno Príncipe" 
                 style={{ maxWidth: '200px', height: 'auto' }} 
               />
+            </div>
+          </div>
+        </section>
+
+        {/* ODS Section */}
+        <section className="sobre-ods" style={{ padding: "5rem 0", backgroundColor: "#f8fafc" }}>
+          <div className="container">
+            <div style={{ maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
+              <h2 className="sobre-historia-title" style={{ marginBottom: "2rem" }}>ODS: Objetivos de Desenvolvimento Sustentável</h2>
+
+              <p style={{ fontSize: "1.125rem", lineHeight: "1.8", color: "#374151", marginBottom: "1.5rem" }}>
+                Os Objetivos de Desenvolvimento Sustentável são um conjunto de metas globais
+                criadas pela ONU para promover o desenvolvimento econômico, social e ambiental de
+                forma equilibrada, garantindo qualidade de vida para as pessoas hoje sem
+                comprometer as futuras gerações.
+              </p>
+
+              <p style={{ fontSize: "1.25rem", fontWeight: "bold", color: "#15803d", marginBottom: "3rem" }}>
+                São 17 Objetivos no total e 3 foram escolhidos pela SVD como foco principal.
+              </p>
+
+              <div style={{
+                width: "100%",
+                height: "auto",
+                minHeight: "300px",
+                borderRadius: "1rem",
+                display: "flex",
+                justifyContent: "center",
+                overflow: "hidden"
+              }}>
+                 <img src={ods} alt="ods" className="ods-image" />
+              </div>
             </div>
           </div>
         </section>

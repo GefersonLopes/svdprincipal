@@ -9,7 +9,6 @@ import areadocolaborador from "../../assets/service-item/team.png";
 import transportes from "../../assets/logos/transportes-logo.png"
 import acessorios from "../../assets/logos/acessorios-logo.png"
 import seminovos from "../../assets/logos/seminovos-logo.png"
-import implementos from "../../assets/logos/logistica.png"
 import blogImg2 from "../../assets/blog/blog1.jpg";
 
 export default function HomeHero() {
@@ -121,7 +120,7 @@ function ServicesBar({ logoAzul }) {
     </a>,
     <div key="red" className="services-bar__circle services-bar__circle--red">
       <div className='services-bar__circle-inner-secondary'>
-        <img src={implementos} alt="SVD Implementos Rodoviários" style={{ width: "85%", height: "90px" }} />
+        <span className="services-bar__circle-text">ESPAÇO DO CLIENTE</span>
       </div>
     </div>,
   ];
